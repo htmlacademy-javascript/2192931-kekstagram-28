@@ -54,7 +54,7 @@ const MAX_COMMENT_ID = 500;
 const MIN_COMMENT_LIKE = 1;
 const MAX_COMMENT_LIKE = 5000;
 const MIN_COMMENT_AVATAR = 1;
-const MAX_COMMENT_AVATAR = 6;пше
+const MAX_COMMENT_AVATAR = 6;
 const MIN_COMMENT_PHOTO = 1;
 const MAX_COMMENT_PHOTO = 25;
 const createDataPhotos = () => {
