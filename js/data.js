@@ -49,16 +49,15 @@ const NAME = [
 ];
 
 const SIMILAR_USER_COUNT = 25;
-
+const MIN_COMMENT_ID = 1;
+const MAX_COMMENT_ID = 500;
+const MIN_COMMENT_LIKE = 1;
+const MAX_COMMENT_LIKE = 5000;
+const MIN_COMMENT_AVATAR = 1;
+const MAX_COMMENT_AVATAR = 6;пше
+const MIN_COMMENT_PHOTO = 1;
+const MAX_COMMENT_PHOTO = 25;
 const createDataPhotos = () => {
-  const MIN_COMMENT_ID = 1;
-  const MAX_COMMENT_ID = 500;
-  const MIN_COMMENT_LIKE = 1;
-  const MAX_COMMENT_LIKE = 5000;
-  const MIN_COMMENT_AVATAR = 1;
-  const MAX_COMMENT_AVATAR = 6;
-  const MIN_COMMENT_PHOTO = 1;
-  const MAX_COMMENT_PHOTO = 25;
   const id = getRandomInteger(MIN_COMMENT_ID, MAX_COMMENT_ID);
   return {
     photo: `photos/jpg-${getRandomInteger(MIN_COMMENT_PHOTO, MAX_COMMENT_PHOTO)}.jpg`,
