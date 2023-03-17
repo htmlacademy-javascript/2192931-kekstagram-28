@@ -77,5 +77,4 @@ const createDataPhotos = () => {
 const similarUser = Array.from({length: SIMILAR_USER_COUNT}, createDataPhotos);
 
 
-// eslint-disable-next-line no-console
-console.log(similarUser);
+export{similarUser};
