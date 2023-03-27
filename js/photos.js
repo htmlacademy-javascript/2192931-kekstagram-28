@@ -14,9 +14,9 @@ const similarUsers = similarUser();
 
 const similarListFragment = document.createDocumentFragment();
 
-similarUsers.forEach(({src, like, comment}) => {
+similarUsers.forEach(({url, like, comment}) => {
   const userElement = similarUserTemplate.cloneNode(true);
-  userElement.querySelector('.picture__img').textContent = src;
+  userElement.querySelector('.picture__img').src = url;
   userElement.querySelector('.picture__likes').textContent = like;
   userElement.querySelector('.picture__comments').textContent = comment;
   similarListElement.appendChild(userElement);

@@ -78,3 +78,4 @@ const similarUser = Array.from({length: SIMILAR_USER_COUNT}, createDataPhotos);
 
 
 export{similarUser};
+
