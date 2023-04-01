@@ -60,7 +60,7 @@ const MAX_COMMENT_PHOTO = 25;
 const createDataPhotos = () => {
   const id = getRandomInteger(MIN_COMMENT_ID, MAX_COMMENT_ID);
   return {
-    photo: `photos/jpg-${getRandomInteger(MIN_COMMENT_PHOTO, MAX_COMMENT_PHOTO)}.jpg`,
+    url: `photos/${getRandomInteger(MIN_COMMENT_PHOTO, MAX_COMMENT_PHOTO)}.jpg`,
     description: getRandomArrayElement(DESCRIPTION),
     like: getRandomInteger(MIN_COMMENT_LIKE, MAX_COMMENT_LIKE),
     comments: [
