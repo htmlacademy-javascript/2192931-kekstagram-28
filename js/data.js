@@ -74,8 +74,9 @@ const createDataPhotos = () => {
   };
 };
 
+const ESC_KEYDOWN_CODE = 27;
+
 const similarUser = Array.from({length: SIMILAR_USER_COUNT}, createDataPhotos);
 
-
-export{similarUser};
+export{similarUser, ESC_KEYDOWN_CODE};
 
